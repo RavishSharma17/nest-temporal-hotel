@@ -24,7 +24,7 @@
 
 # NestJS with Temporal.io Integration
 
-This project demonstrates how to integrate Temporal.io workflows with a NestJS application, featuring Redis for data storage and search capabilities.
+This project demonstrates how to integrate Temporal.io workflows with a NestJS application.
 
 ## Prerequisites
 
@@ -41,7 +41,7 @@ Copy the example environment file and configure your settings:
 cp .env.example .env
 ```
 
-Edit the `.env` file to match your Temporal server and Redis configuration:
+Edit the `.env` file to match your Temporal server configuration:
 
 ```bash
 # Temporal Configuration
@@ -227,7 +227,6 @@ docker logs nest-temporal-api
 docker logs nest-temporal-worker
 
 # Check network connectivity
-docker exec nest-temporal-api ping redis
 docker exec nest-temporal-worker ping temporal
 ```
 
