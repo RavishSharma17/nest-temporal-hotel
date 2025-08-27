@@ -1,1 +1,1 @@
-export * from './users.workflow';
+export * from './hotels.workflow';

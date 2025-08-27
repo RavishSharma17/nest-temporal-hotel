@@ -1,0 +1,1581 @@
+{
+  "supplierA": [
+    {
+      "name": "Six",
+      "price": 3448,
+      "commissionPct": 19,
+      "city": "Mumbai",
+      "hotelId": "0"
+    },
+    {
+      "name": "Le",
+      "price": 7898,
+      "commissionPct": 18,
+      "city": "Delhi",
+      "hotelId": "000001"
+    },
+    {
+      "name": "Kimpton",
+      "price": 3104,
+      "commissionPct": 13,
+      "city": "Bengaluru",
+      "hotelId": "000002"
+    },
+    {
+      "name": "Six",
+      "price": 4660,
+      "commissionPct": 18,
+      "city": "Pune",
+      "hotelId": "000003"
+    },
+    {
+      "name": "Waldorf",
+      "price": 3738,
+      "commissionPct": 15,
+      "city": "Kolkata",
+      "hotelId": "000004"
+    },
+    {
+      "name": "The",
+      "price": 6439,
+      "commissionPct": 19,
+      "city": "Chennai",
+      "hotelId": "000005"
+    },
+    {
+      "name": "Mandarin",
+      "price": 7458,
+      "commissionPct": 19,
+      "city": "Ahmedabad",
+      "hotelId": "000006"
+    },
+    {
+      "name": "JW",
+      "price": 7208,
+      "commissionPct": 16,
+      "city": "Hyderabad",
+      "hotelId": "000007"
+    },
+    {
+      "name": "Waldorf Astoria",
+      "price": 3739,
+      "commissionPct": 21,
+      "city": "Jaipur",
+      "hotelId": "000008"
+    },
+    {
+      "name": "Radisson Blu",
+      "price": 6260,
+      "commissionPct": 19,
+      "city": "Surat",
+      "hotelId": "000009"
+    },
+    {
+      "name": "Six",
+      "price": 7409,
+      "commissionPct": 17,
+      "city": "Mumbai",
+      "hotelId": "00000A"
+    },
+    {
+      "name": "Hyatt",
+      "price": 5651,
+      "commissionPct": 23,
+      "city": "Delhi",
+      "hotelId": "00000B"
+    },
+    {
+      "name": "Belmond",
+      "price": 6064,
+      "commissionPct": 23,
+      "city": "Bengaluru",
+      "hotelId": "00000C"
+    },
+    {
+      "name": "Holiday",
+      "price": 6503,
+      "commissionPct": 16,
+      "city": "Pune",
+      "hotelId": "00000D"
+    },
+    {
+      "name": "Ibis",
+      "price": 7030,
+      "commissionPct": 21,
+      "city": "Kolkata",
+      "hotelId": "00000E"
+    },
+    {
+      "name": "Shangri-La",
+      "price": 7724,
+      "commissionPct": 21,
+      "city": "Chennai",
+      "hotelId": "00000F"
+    },
+    {
+      "name": "Waldorf Astoria",
+      "price": 3062,
+      "commissionPct": 10,
+      "city": "Ahmedabad",
+      "hotelId": "00000G"
+    },
+    {
+      "name": "Kimpton",
+      "price": 6411,
+      "commissionPct": 23,
+      "city": "Hyderabad",
+      "hotelId": "00000H"
+    },
+    {
+      "name": "Le",
+      "price": 5425,
+      "commissionPct": 24,
+      "city": "Jaipur",
+      "hotelId": "00000I"
+    },
+    {
+      "name": "Hilton Garden",
+      "price": 5200,
+      "commissionPct": 10,
+      "city": "Surat",
+      "hotelId": "00000J"
+    },
+    {
+      "name": "Aman Resorts",
+      "price": 3073,
+      "commissionPct": 21,
+      "city": "Mumbai",
+      "hotelId": "00000K"
+    },
+    {
+      "name": "Hyatt Regency",
+      "price": 6319,
+      "commissionPct": 10,
+      "city": "Delhi",
+      "hotelId": "00000L"
+    },
+    {
+      "name": "The Peninsula",
+      "price": 4169,
+      "commissionPct": 24,
+      "city": "Bengaluru",
+      "hotelId": "00000M"
+    },
+    {
+      "name": "Sofitel",
+      "price": 6381,
+      "commissionPct": 18,
+      "city": "Pune",
+      "hotelId": "00000N"
+    },
+    {
+      "name": "Belmond",
+      "price": 7198,
+      "commissionPct": 18,
+      "city": "Kolkata",
+      "hotelId": "00000O"
+    },
+    {
+      "name": "Hilton Garden Inn",
+      "price": 3697,
+      "commissionPct": 18,
+      "city": "Chennai",
+      "hotelId": "00000P"
+    },
+    {
+      "name": "Crowne Plaza",
+      "price": 5659,
+      "commissionPct": 16,
+      "city": "Ahmedabad",
+      "hotelId": "00000Q"
+    },
+    {
+      "name": "Kimpton",
+      "price": 6948,
+      "commissionPct": 15,
+      "city": "Hyderabad",
+      "hotelId": "00000R"
+    },
+    {
+      "name": "JW Marriott",
+      "price": 6427,
+      "commissionPct": 18,
+      "city": "Jaipur",
+      "hotelId": "00000S"
+    },
+    {
+      "name": "Radisson Blu",
+      "price": 6646,
+      "commissionPct": 11,
+      "city": "Surat",
+      "hotelId": "00000T"
+    },
+    {
+      "name": "Radisson Blu",
+      "price": 3382,
+      "commissionPct": 19,
+      "city": "Mumbai",
+      "hotelId": "00000U"
+    },
+    {
+      "name": "Shangri-La Hotel",
+      "price": 6874,
+      "commissionPct": 20,
+      "city": "Delhi",
+      "hotelId": "00000V"
+    },
+    {
+      "name": "Raffles",
+      "price": 3264,
+      "commissionPct": 15,
+      "city": "Bengaluru",
+      "hotelId": "00000W"
+    },
+    {
+      "name": "Raffles",
+      "price": 3505,
+      "commissionPct": 17,
+      "city": "Pune",
+      "hotelId": "00000X"
+    },
+    {
+      "name": "Six Senses",
+      "price": 4755,
+      "commissionPct": 25,
+      "city": "Kolkata",
+      "hotelId": "00000Y"
+    },
+    {
+      "name": "The Langham",
+      "price": 6951,
+      "commissionPct": 13,
+      "city": "Chennai",
+      "hotelId": "00000Z"
+    },
+    {
+      "name": "The Savoy",
+      "price": 3997,
+      "commissionPct": 11,
+      "city": "Ahmedabad",
+      "hotelId": "00000a"
+    },
+    {
+      "name": "Shangri-La Hotel",
+      "price": 4488,
+      "commissionPct": 18,
+      "city": "Hyderabad",
+      "hotelId": "00000b"
+    },
+    {
+      "name": "Four Seasons",
+      "price": 4980,
+      "commissionPct": 13,
+      "city": "Jaipur",
+      "hotelId": "00000c"
+    },
+    {
+      "name": "Movenpick",
+      "price": 3691,
+      "commissionPct": 25,
+      "city": "Surat",
+      "hotelId": "00000d"
+    },
+    {
+      "name": "Westin",
+      "price": 4171,
+      "commissionPct": 14,
+      "city": "Mumbai",
+      "hotelId": "00000e"
+    },
+    {
+      "name": "Shangri-La Hotel",
+      "price": 6752,
+      "commissionPct": 21,
+      "city": "Delhi",
+      "hotelId": "00000f"
+    },
+    {
+      "name": "DoubleTree",
+      "price": 7792,
+      "commissionPct": 23,
+      "city": "Bengaluru",
+      "hotelId": "00000g"
+    },
+    {
+      "name": "Taj Mahal Palace",
+      "price": 3450,
+      "commissionPct": 16,
+      "city": "Pune",
+      "hotelId": "00000h"
+    },
+    {
+      "name": "Four Seasons",
+      "price": 5410,
+      "commissionPct": 14,
+      "city": "Kolkata",
+      "hotelId": "00000i"
+    },
+    {
+      "name": "Alila",
+      "price": 6019,
+      "commissionPct": 16,
+      "city": "Chennai",
+      "hotelId": "00000j"
+    },
+    {
+      "name": "St. Regis",
+      "price": 4476,
+      "commissionPct": 25,
+      "city": "Ahmedabad",
+      "hotelId": "00000k"
+    },
+    {
+      "name": "Conrad",
+      "price": 4020,
+      "commissionPct": 14,
+      "city": "Hyderabad",
+      "hotelId": "00000l"
+    },
+    {
+      "name": "The Dorchester",
+      "price": 3542,
+      "commissionPct": 19,
+      "city": "Jaipur",
+      "hotelId": "00000m"
+    },
+    {
+      "name": "Marriott Marquis",
+      "price": 3460,
+      "commissionPct": 19,
+      "city": "Surat",
+      "hotelId": "00000n"
+    },
+    {
+      "name": "Six Senses",
+      "price": 4599,
+      "commissionPct": 17,
+      "city": "Mumbai",
+      "hotelId": "00000o"
+    },
+    {
+      "name": "Taj Mahal Palace",
+      "price": 7037,
+      "commissionPct": 25,
+      "city": "Delhi",
+      "hotelId": "00000p"
+    },
+    {
+      "name": "DoubleTree",
+      "price": 3834,
+      "commissionPct": 22,
+      "city": "Bengaluru",
+      "hotelId": "00000q"
+    },
+    {
+      "name": "The Ritz-Carlton",
+      "price": 5691,
+      "commissionPct": 25,
+      "city": "Pune",
+      "hotelId": "00000r"
+    },
+    {
+      "name": "The Ritz-Carlton",
+      "price": 5487,
+      "commissionPct": 13,
+      "city": "Kolkata",
+      "hotelId": "00000s"
+    },
+    {
+      "name": "St. Regis",
+      "price": 6840,
+      "commissionPct": 10,
+      "city": "Chennai",
+      "hotelId": "00000t"
+    },
+    {
+      "name": "Westin",
+      "price": 7795,
+      "commissionPct": 15,
+      "city": "Ahmedabad",
+      "hotelId": "00000u"
+    },
+    {
+      "name": "Pullman",
+      "price": 7057,
+      "commissionPct": 22,
+      "city": "Hyderabad",
+      "hotelId": "00000v"
+    },
+    {
+      "name": "Westin",
+      "price": 6787,
+      "commissionPct": 10,
+      "city": "Jaipur",
+      "hotelId": "00000w"
+    },
+    {
+      "name": "Rosewood",
+      "price": 3182,
+      "commissionPct": 11,
+      "city": "Surat",
+      "hotelId": "00000x"
+    },
+    {
+      "name": "Radisson Blu",
+      "price": 3041,
+      "commissionPct": 22,
+      "city": "Mumbai",
+      "hotelId": "00000y"
+    },
+    {
+      "name": "Conrad",
+      "price": 5745,
+      "commissionPct": 16,
+      "city": "Delhi",
+      "hotelId": "00000z"
+    },
+    {
+      "name": "The Ritz-Carlton",
+      "price": 4128,
+      "commissionPct": 15,
+      "city": "Bengaluru",
+      "hotelId": "000010"
+    },
+    {
+      "name": "Waldorf Astoria",
+      "price": 5480,
+      "commissionPct": 18,
+      "city": "Pune",
+      "hotelId": "000011"
+    },
+    {
+      "name": "Mandarin Oriental",
+      "price": 6108,
+      "commissionPct": 15,
+      "city": "Kolkata",
+      "hotelId": "000012"
+    },
+    {
+      "name": "Hilton Garden Inn",
+      "price": 7726,
+      "commissionPct": 25,
+      "city": "Chennai",
+      "hotelId": "000013"
+    },
+    {
+      "name": "InterContinental",
+      "price": 5377,
+      "commissionPct": 21,
+      "city": "Ahmedabad",
+      "hotelId": "000014"
+    },
+    {
+      "name": "Le Meridien",
+      "price": 4281,
+      "commissionPct": 20,
+      "city": "Hyderabad",
+      "hotelId": "000015"
+    },
+    {
+      "name": "Westin",
+      "price": 5641,
+      "commissionPct": 17,
+      "city": "Jaipur",
+      "hotelId": "000016"
+    },
+    {
+      "name": "Six Senses",
+      "price": 6698,
+      "commissionPct": 16,
+      "city": "Surat",
+      "hotelId": "000017"
+    },
+    {
+      "name": "Rosewood",
+      "price": 7705,
+      "commissionPct": 16,
+      "city": "Mumbai",
+      "hotelId": "000018"
+    },
+    {
+      "name": "Waldorf Astoria",
+      "price": 4730,
+      "commissionPct": 22,
+      "city": "Delhi",
+      "hotelId": "000019"
+    },
+    {
+      "name": "Raffles",
+      "price": 3533,
+      "commissionPct": 17,
+      "city": "Bengaluru",
+      "hotelId": "00001A"
+    },
+    {
+      "name": "Conrad",
+      "price": 5945,
+      "commissionPct": 13,
+      "city": "Pune",
+      "hotelId": "00001B"
+    },
+    {
+      "name": "The Peninsula",
+      "price": 4347,
+      "commissionPct": 13,
+      "city": "Kolkata",
+      "hotelId": "00001C"
+    },
+    {
+      "name": "The Dorchester",
+      "price": 3107,
+      "commissionPct": 16,
+      "city": "Chennai",
+      "hotelId": "00001D"
+    },
+    {
+      "name": "Rosewood",
+      "price": 5071,
+      "commissionPct": 20,
+      "city": "Ahmedabad",
+      "hotelId": "00001E"
+    },
+    {
+      "name": "The Ritz-Carlton",
+      "price": 3657,
+      "commissionPct": 10,
+      "city": "Hyderabad",
+      "hotelId": "00001F"
+    },
+    {
+      "name": "JW Marriott",
+      "price": 7028,
+      "commissionPct": 24,
+      "city": "Jaipur",
+      "hotelId": "00001G"
+    },
+    {
+      "name": "Raffles",
+      "price": 4216,
+      "commissionPct": 13,
+      "city": "Surat",
+      "hotelId": "00001H"
+    },
+    {
+      "name": "Movenpick",
+      "price": 7096,
+      "commissionPct": 23,
+      "city": "Mumbai",
+      "hotelId": "00001I"
+    },
+    {
+      "name": "Novotel",
+      "price": 7928,
+      "commissionPct": 22,
+      "city": "Delhi",
+      "hotelId": "00001J"
+    },
+    {
+      "name": "Holiday Inn",
+      "price": 6614,
+      "commissionPct": 24,
+      "city": "Bengaluru",
+      "hotelId": "00001K"
+    },
+    {
+      "name": "Waldorf Astoria",
+      "price": 5676,
+      "commissionPct": 15,
+      "city": "Pune",
+      "hotelId": "00001L"
+    },
+    {
+      "name": "InterContinental",
+      "price": 7278,
+      "commissionPct": 18,
+      "city": "Kolkata",
+      "hotelId": "00001M"
+    },
+    {
+      "name": "Crowne Plaza",
+      "price": 5216,
+      "commissionPct": 14,
+      "city": "Chennai",
+      "hotelId": "00001N"
+    },
+    {
+      "name": "Novotel",
+      "price": 4384,
+      "commissionPct": 25,
+      "city": "Ahmedabad",
+      "hotelId": "00001O"
+    },
+    {
+      "name": "The Langham",
+      "price": 6979,
+      "commissionPct": 24,
+      "city": "Hyderabad",
+      "hotelId": "00001P"
+    },
+    {
+      "name": "The Plaza",
+      "price": 4632,
+      "commissionPct": 24,
+      "city": "Jaipur",
+      "hotelId": "00001Q"
+    },
+    {
+      "name": "Radisson Blu",
+      "price": 4299,
+      "commissionPct": 15,
+      "city": "Surat",
+      "hotelId": "00001R"
+    },
+    {
+      "name": "The Langham",
+      "price": 4677,
+      "commissionPct": 24,
+      "city": "Mumbai",
+      "hotelId": "00001S"
+    },
+    {
+      "name": "Holiday Inn",
+      "price": 3707,
+      "commissionPct": 24,
+      "city": "Delhi",
+      "hotelId": "00001T"
+    },
+    {
+      "name": "Rosewood",
+      "price": 6630,
+      "commissionPct": 17,
+      "city": "Bengaluru",
+      "hotelId": "00001U"
+    },
+    {
+      "name": "Park Hyatt",
+      "price": 3897,
+      "commissionPct": 13,
+      "city": "Pune",
+      "hotelId": "00001V"
+    },
+    {
+      "name": "Kimpton",
+      "price": 5470,
+      "commissionPct": 11,
+      "city": "Kolkata",
+      "hotelId": "00001W"
+    },
+    {
+      "name": "The Savoy",
+      "price": 6415,
+      "commissionPct": 12,
+      "city": "Chennai",
+      "hotelId": "00001X"
+    },
+    {
+      "name": "The Savoy",
+      "price": 7544,
+      "commissionPct": 16,
+      "city": "Ahmedabad",
+      "hotelId": "00001Y"
+    },
+    {
+      "name": "JW Marriott",
+      "price": 3076,
+      "commissionPct": 19,
+      "city": "Hyderabad",
+      "hotelId": "00001Z"
+    },
+    {
+      "name": "Anantara",
+      "price": 4590,
+      "commissionPct": 10,
+      "city": "Jaipur",
+      "hotelId": "00001a"
+    },
+    {
+      "name": "Raffles",
+      "price": 3479,
+      "commissionPct": 19,
+      "city": "Surat",
+      "hotelId": "00001b"
+    },
+    {
+      "name": "InterContinental",
+      "price": 6138,
+      "commissionPct": 11,
+      "city": "Mumbai",
+      "hotelId": "00001c"
+    },
+    {
+      "name": "Kimpton",
+      "price": 3539,
+      "commissionPct": 20,
+      "city": "Delhi",
+      "hotelId": "00001d"
+    },
+    {
+      "name": "The Dorchester",
+      "price": 6364,
+      "commissionPct": 18,
+      "city": "Bengaluru",
+      "hotelId": "00001e"
+    },
+    {
+      "name": "Hyatt Regency",
+      "price": 6624,
+      "commissionPct": 10,
+      "city": "Pune",
+      "hotelId": "00001f"
+    },
+    {
+      "name": "Shangri-La Hotel",
+      "price": 5447,
+      "commissionPct": 22,
+      "city": "Kolkata",
+      "hotelId": "00001g"
+    },
+    {
+      "name": "Hyatt Regency",
+      "price": 6875,
+      "commissionPct": 14,
+      "city": "Chennai",
+      "hotelId": "00001h"
+    },
+    {
+      "name": "Belmond",
+      "price": 5231,
+      "commissionPct": 12,
+      "city": "Ahmedabad",
+      "hotelId": "00001i"
+    },
+    {
+      "name": "The Ritz-Carlton",
+      "price": 4474,
+      "commissionPct": 18,
+      "city": "Hyderabad",
+      "hotelId": "00001j"
+    },
+    {
+      "name": "Mandarin Oriental",
+      "price": 5939,
+      "commissionPct": 25,
+      "city": "Jaipur",
+      "hotelId": "00001k"
+    },
+    {
+      "name": "Anantara",
+      "price": 4502,
+      "commissionPct": 17,
+      "city": "Surat",
+      "hotelId": "00001l"
+    },
+    {
+      "name": "Ibis",
+      "price": 6822,
+      "commissionPct": 13,
+      "city": "Mumbai",
+      "hotelId": "00001m"
+    },
+    {
+      "name": "The Ritz-Carlton",
+      "price": 7556,
+      "commissionPct": 21,
+      "city": "Delhi",
+      "hotelId": "00001n"
+    },
+    {
+      "name": "Le Meridien",
+      "price": 3819,
+      "commissionPct": 21,
+      "city": "Bengaluru",
+      "hotelId": "00001o"
+    },
+    {
+      "name": "Aman Resorts",
+      "price": 7357,
+      "commissionPct": 20,
+      "city": "Pune",
+      "hotelId": "00001p"
+    },
+    {
+      "name": "The Ritz-Carlton",
+      "price": 4049,
+      "commissionPct": 13,
+      "city": "Kolkata",
+      "hotelId": "00001q"
+    },
+    {
+      "name": "Anantara",
+      "price": 7752,
+      "commissionPct": 16,
+      "city": "Chennai",
+      "hotelId": "00001r"
+    },
+    {
+      "name": "Kimpton",
+      "price": 5515,
+      "commissionPct": 11,
+      "city": "Ahmedabad",
+      "hotelId": "00001s"
+    },
+    {
+      "name": "Shangri-La Hotel",
+      "price": 6362,
+      "commissionPct": 14,
+      "city": "Hyderabad",
+      "hotelId": "00001t"
+    },
+    {
+      "name": "Conrad",
+      "price": 5800,
+      "commissionPct": 14,
+      "city": "Jaipur",
+      "hotelId": "00001u"
+    },
+    {
+      "name": "Holiday Inn",
+      "price": 4104,
+      "commissionPct": 10,
+      "city": "Surat",
+      "hotelId": "00001v"
+    }
+  ],
+  "supplierB": [
+    {
+      "name": "Six",
+      "price": 3448,
+      "commissionPct": 19,
+      "city": "Mumbai",
+      "hotelId": "00001w"
+    },
+    {
+      "name": "Le",
+      "price": 7898,
+      "commissionPct": 18,
+      "city": "Delhi",
+      "hotelId": "00001x"
+    },
+    {
+      "name": "Four Seasons",
+      "price": 3104,
+      "commissionPct": 13,
+      "city": "Bengaluru",
+      "hotelId": "00001y"
+    },
+    {
+      "name": "DoubleTree",
+      "price": 4660,
+      "commissionPct": 18,
+      "city": "Pune",
+      "hotelId": "00001z"
+    },
+    {
+      "name": "Waldorf",
+      "price": 3738,
+      "commissionPct": 15,
+      "city": "Kolkata",
+      "hotelId": "000020"
+    },
+    {
+      "name": "The",
+      "price": 6439,
+      "commissionPct": 19,
+      "city": "Chennai",
+      "hotelId": "000021"
+    },
+    {
+      "name": "Mandarin",
+      "price": 7458,
+      "commissionPct": 19,
+      "city": "Ahmedabad",
+      "hotelId": "000022"
+    },
+    {
+      "name": "JW",
+      "price": 7208,
+      "commissionPct": 16,
+      "city": "Hyderabad",
+      "hotelId": "000023"
+    },
+    {
+      "name": "Shangri-La",
+      "price": 3739,
+      "commissionPct": 21,
+      "city": "Jaipur",
+      "hotelId": "000024"
+    },
+    {
+      "name": "Hyatt Regency",
+      "price": 6260,
+      "commissionPct": 19,
+      "city": "Surat",
+      "hotelId": "000025"
+    },
+    {
+      "name": "Six",
+      "price": 7409,
+      "commissionPct": 17,
+      "city": "Mumbai",
+      "hotelId": "000026"
+    },
+    {
+      "name": "Hyatt",
+      "price": 5651,
+      "commissionPct": 23,
+      "city": "Delhi",
+      "hotelId": "000027"
+    },
+    {
+      "name": "Shangri-La Hotel",
+      "price": 6064,
+      "commissionPct": 23,
+      "city": "Bengaluru",
+      "hotelId": "000028"
+    },
+    {
+      "name": "Holiday",
+      "price": 6503,
+      "commissionPct": 16,
+      "city": "Pune",
+      "hotelId": "000029"
+    },
+    {
+      "name": "InterContinental",
+      "price": 7030,
+      "commissionPct": 21,
+      "city": "Kolkata",
+      "hotelId": "00002A"
+    },
+    {
+      "name": "Shangri-La",
+      "price": 7724,
+      "commissionPct": 21,
+      "city": "Chennai",
+      "hotelId": "00002B"
+    },
+    {
+      "name": "JW",
+      "price": 3062,
+      "commissionPct": 10,
+      "city": "Ahmedabad",
+      "hotelId": "00002C"
+    },
+    {
+      "name": "Marriott Marquis",
+      "price": 6411,
+      "commissionPct": 23,
+      "city": "Hyderabad",
+      "hotelId": "00002D"
+    },
+    {
+      "name": "Le",
+      "price": 5425,
+      "commissionPct": 24,
+      "city": "Jaipur",
+      "hotelId": "00002E"
+    },
+    {
+      "name": "Hilton Garden",
+      "price": 5200,
+      "commissionPct": 10,
+      "city": "Surat",
+      "hotelId": "00002F"
+    },
+    {
+      "name": "DoubleTree",
+      "price": 4683,
+      "commissionPct": 23,
+      "city": "Mumbai",
+      "hotelId": "00002G"
+    },
+    {
+      "name": "Kimpton",
+      "price": 4644,
+      "commissionPct": 19,
+      "city": "Delhi",
+      "hotelId": "00002H"
+    },
+    {
+      "name": "InterContinental",
+      "price": 6748,
+      "commissionPct": 23,
+      "city": "Bengaluru",
+      "hotelId": "00002I"
+    },
+    {
+      "name": "Westin",
+      "price": 3051,
+      "commissionPct": 19,
+      "city": "Pune",
+      "hotelId": "00002J"
+    },
+    {
+      "name": "St. Regis",
+      "price": 5130,
+      "commissionPct": 23,
+      "city": "Kolkata",
+      "hotelId": "00002K"
+    },
+    {
+      "name": "Westin",
+      "price": 6135,
+      "commissionPct": 25,
+      "city": "Chennai",
+      "hotelId": "00002L"
+    },
+    {
+      "name": "Alila",
+      "price": 6008,
+      "commissionPct": 13,
+      "city": "Ahmedabad",
+      "hotelId": "00002M"
+    },
+    {
+      "name": "DoubleTree",
+      "price": 6232,
+      "commissionPct": 24,
+      "city": "Hyderabad",
+      "hotelId": "00002N"
+    },
+    {
+      "name": "Crowne Plaza",
+      "price": 7168,
+      "commissionPct": 13,
+      "city": "Jaipur",
+      "hotelId": "00002O"
+    },
+    {
+      "name": "Marriott Marquis",
+      "price": 3319,
+      "commissionPct": 16,
+      "city": "Surat",
+      "hotelId": "00002P"
+    },
+    {
+      "name": "Crowne Plaza",
+      "price": 5681,
+      "commissionPct": 21,
+      "city": "Mumbai",
+      "hotelId": "00002Q"
+    },
+    {
+      "name": "Mandarin Oriental",
+      "price": 7857,
+      "commissionPct": 11,
+      "city": "Delhi",
+      "hotelId": "00002R"
+    },
+    {
+      "name": "InterContinental",
+      "price": 3197,
+      "commissionPct": 10,
+      "city": "Bengaluru",
+      "hotelId": "00002S"
+    },
+    {
+      "name": "Hyatt Regency",
+      "price": 4030,
+      "commissionPct": 25,
+      "city": "Pune",
+      "hotelId": "00002T"
+    },
+    {
+      "name": "Conrad",
+      "price": 6527,
+      "commissionPct": 15,
+      "city": "Kolkata",
+      "hotelId": "00002U"
+    },
+    {
+      "name": "Park Hyatt",
+      "price": 4212,
+      "commissionPct": 11,
+      "city": "Chennai",
+      "hotelId": "00002V"
+    },
+    {
+      "name": "Ibis",
+      "price": 3257,
+      "commissionPct": 25,
+      "city": "Ahmedabad",
+      "hotelId": "00002W"
+    },
+    {
+      "name": "Mandarin Oriental",
+      "price": 7601,
+      "commissionPct": 22,
+      "city": "Hyderabad",
+      "hotelId": "00002X"
+    },
+    {
+      "name": "Anantara",
+      "price": 7996,
+      "commissionPct": 22,
+      "city": "Jaipur",
+      "hotelId": "00002Y"
+    },
+    {
+      "name": "Four Seasons",
+      "price": 7124,
+      "commissionPct": 12,
+      "city": "Surat",
+      "hotelId": "00002Z"
+    },
+    {
+      "name": "Shangri-La Hotel",
+      "price": 7464,
+      "commissionPct": 19,
+      "city": "Mumbai",
+      "hotelId": "00002a"
+    },
+    {
+      "name": "Ibis",
+      "price": 3693,
+      "commissionPct": 10,
+      "city": "Delhi",
+      "hotelId": "00002b"
+    },
+    {
+      "name": "Le Meridien",
+      "price": 3722,
+      "commissionPct": 13,
+      "city": "Bengaluru",
+      "hotelId": "00002c"
+    },
+    {
+      "name": "Waldorf Astoria",
+      "price": 4320,
+      "commissionPct": 20,
+      "city": "Pune",
+      "hotelId": "00002d"
+    },
+    {
+      "name": "Holiday Inn",
+      "price": 5482,
+      "commissionPct": 22,
+      "city": "Kolkata",
+      "hotelId": "00002e"
+    },
+    {
+      "name": "Westin",
+      "price": 5002,
+      "commissionPct": 16,
+      "city": "Chennai",
+      "hotelId": "00002f"
+    },
+    {
+      "name": "Six Senses",
+      "price": 7549,
+      "commissionPct": 13,
+      "city": "Ahmedabad",
+      "hotelId": "00002g"
+    },
+    {
+      "name": "Taj Mahal Palace",
+      "price": 6187,
+      "commissionPct": 16,
+      "city": "Hyderabad",
+      "hotelId": "00002h"
+    },
+    {
+      "name": "Raffles",
+      "price": 5182,
+      "commissionPct": 10,
+      "city": "Jaipur",
+      "hotelId": "00002i"
+    },
+    {
+      "name": "The Langham",
+      "price": 3291,
+      "commissionPct": 18,
+      "city": "Surat",
+      "hotelId": "00002j"
+    },
+    {
+      "name": "Raffles",
+      "price": 3328,
+      "commissionPct": 20,
+      "city": "Mumbai",
+      "hotelId": "00002k"
+    },
+    {
+      "name": "DoubleTree",
+      "price": 5280,
+      "commissionPct": 19,
+      "city": "Delhi",
+      "hotelId": "00002l"
+    },
+    {
+      "name": "Novotel",
+      "price": 6079,
+      "commissionPct": 20,
+      "city": "Bengaluru",
+      "hotelId": "00002m"
+    },
+    {
+      "name": "The Dorchester",
+      "price": 4427,
+      "commissionPct": 16,
+      "city": "Pune",
+      "hotelId": "00002n"
+    },
+    {
+      "name": "The Savoy",
+      "price": 3060,
+      "commissionPct": 14,
+      "city": "Kolkata",
+      "hotelId": "00002o"
+    },
+    {
+      "name": "The Langham",
+      "price": 5555,
+      "commissionPct": 10,
+      "city": "Chennai",
+      "hotelId": "00002p"
+    },
+    {
+      "name": "Raffles",
+      "price": 5677,
+      "commissionPct": 24,
+      "city": "Ahmedabad",
+      "hotelId": "00002q"
+    },
+    {
+      "name": "InterContinental",
+      "price": 3271,
+      "commissionPct": 25,
+      "city": "Hyderabad",
+      "hotelId": "00002r"
+    },
+    {
+      "name": "Raffles",
+      "price": 7254,
+      "commissionPct": 11,
+      "city": "Jaipur",
+      "hotelId": "00002s"
+    },
+    {
+      "name": "Fairmont",
+      "price": 3474,
+      "commissionPct": 15,
+      "city": "Surat",
+      "hotelId": "00002t"
+    },
+    {
+      "name": "The Ritz-Carlton",
+      "price": 3081,
+      "commissionPct": 13,
+      "city": "Mumbai",
+      "hotelId": "00002u"
+    },
+    {
+      "name": "Le Meridien",
+      "price": 7890,
+      "commissionPct": 20,
+      "city": "Delhi",
+      "hotelId": "00002v"
+    },
+    {
+      "name": "The Savoy",
+      "price": 7057,
+      "commissionPct": 11,
+      "city": "Bengaluru",
+      "hotelId": "00002w"
+    },
+    {
+      "name": "Holiday Inn",
+      "price": 5695,
+      "commissionPct": 16,
+      "city": "Pune",
+      "hotelId": "00002x"
+    },
+    {
+      "name": "Crowne Plaza",
+      "price": 7113,
+      "commissionPct": 25,
+      "city": "Kolkata",
+      "hotelId": "00002y"
+    },
+    {
+      "name": "Mandarin Oriental",
+      "price": 4364,
+      "commissionPct": 25,
+      "city": "Chennai",
+      "hotelId": "00002z"
+    },
+    {
+      "name": "Aman Resorts",
+      "price": 4758,
+      "commissionPct": 10,
+      "city": "Ahmedabad",
+      "hotelId": "000030"
+    },
+    {
+      "name": "Raffles",
+      "price": 5618,
+      "commissionPct": 13,
+      "city": "Hyderabad",
+      "hotelId": "000031"
+    },
+    {
+      "name": "Crowne Plaza",
+      "price": 6550,
+      "commissionPct": 18,
+      "city": "Jaipur",
+      "hotelId": "000032"
+    },
+    {
+      "name": "Hyatt Regency",
+      "price": 6565,
+      "commissionPct": 25,
+      "city": "Surat",
+      "hotelId": "000033"
+    },
+    {
+      "name": "Pullman",
+      "price": 4831,
+      "commissionPct": 11,
+      "city": "Mumbai",
+      "hotelId": "000034"
+    },
+    {
+      "name": "Holiday Inn",
+      "price": 3753,
+      "commissionPct": 19,
+      "city": "Delhi",
+      "hotelId": "000035"
+    },
+    {
+      "name": "Four Seasons",
+      "price": 3147,
+      "commissionPct": 19,
+      "city": "Bengaluru",
+      "hotelId": "000036"
+    },
+    {
+      "name": "Alila",
+      "price": 4126,
+      "commissionPct": 24,
+      "city": "Pune",
+      "hotelId": "000037"
+    },
+    {
+      "name": "The Ritz-Carlton",
+      "price": 4919,
+      "commissionPct": 11,
+      "city": "Kolkata",
+      "hotelId": "000038"
+    },
+    {
+      "name": "Crowne Plaza",
+      "price": 7739,
+      "commissionPct": 21,
+      "city": "Chennai",
+      "hotelId": "000039"
+    },
+    {
+      "name": "JW Marriott",
+      "price": 3032,
+      "commissionPct": 10,
+      "city": "Ahmedabad",
+      "hotelId": "00003A"
+    },
+    {
+      "name": "DoubleTree",
+      "price": 5884,
+      "commissionPct": 15,
+      "city": "Hyderabad",
+      "hotelId": "00003B"
+    },
+    {
+      "name": "The Ritz-Carlton",
+      "price": 6044,
+      "commissionPct": 22,
+      "city": "Jaipur",
+      "hotelId": "00003C"
+    },
+    {
+      "name": "The Ritz-Carlton",
+      "price": 6193,
+      "commissionPct": 14,
+      "city": "Surat",
+      "hotelId": "00003D"
+    },
+    {
+      "name": "Six Senses",
+      "price": 6104,
+      "commissionPct": 15,
+      "city": "Mumbai",
+      "hotelId": "00003E"
+    },
+    {
+      "name": "Westin",
+      "price": 3259,
+      "commissionPct": 21,
+      "city": "Delhi",
+      "hotelId": "00003F"
+    },
+    {
+      "name": "Marriott Marquis",
+      "price": 7958,
+      "commissionPct": 12,
+      "city": "Bengaluru",
+      "hotelId": "00003G"
+    },
+    {
+      "name": "Six Senses",
+      "price": 5683,
+      "commissionPct": 17,
+      "city": "Pune",
+      "hotelId": "00003H"
+    },
+    {
+      "name": "Holiday Inn",
+      "price": 3905,
+      "commissionPct": 19,
+      "city": "Kolkata",
+      "hotelId": "00003I"
+    },
+    {
+      "name": "Novotel",
+      "price": 6766,
+      "commissionPct": 10,
+      "city": "Chennai",
+      "hotelId": "00003J"
+    },
+    {
+      "name": "Movenpick",
+      "price": 6047,
+      "commissionPct": 17,
+      "city": "Ahmedabad",
+      "hotelId": "00003K"
+    },
+    {
+      "name": "DoubleTree",
+      "price": 4855,
+      "commissionPct": 12,
+      "city": "Hyderabad",
+      "hotelId": "00003L"
+    },
+    {
+      "name": "Pullman",
+      "price": 5544,
+      "commissionPct": 22,
+      "city": "Jaipur",
+      "hotelId": "00003M"
+    },
+    {
+      "name": "Pullman",
+      "price": 5347,
+      "commissionPct": 22,
+      "city": "Surat",
+      "hotelId": "00003N"
+    },
+    {
+      "name": "Mandarin Oriental",
+      "price": 7783,
+      "commissionPct": 23,
+      "city": "Mumbai",
+      "hotelId": "00003O"
+    },
+    {
+      "name": "Hilton Garden Inn",
+      "price": 3213,
+      "commissionPct": 19,
+      "city": "Delhi",
+      "hotelId": "00003P"
+    },
+    {
+      "name": "Park Hyatt",
+      "price": 6115,
+      "commissionPct": 18,
+      "city": "Bengaluru",
+      "hotelId": "00003Q"
+    },
+    {
+      "name": "Park Hyatt",
+      "price": 3499,
+      "commissionPct": 10,
+      "city": "Pune",
+      "hotelId": "00003R"
+    },
+    {
+      "name": "Shangri-La Hotel",
+      "price": 4489,
+      "commissionPct": 16,
+      "city": "Kolkata",
+      "hotelId": "00003S"
+    },
+    {
+      "name": "Pullman",
+      "price": 7220,
+      "commissionPct": 17,
+      "city": "Chennai",
+      "hotelId": "00003T"
+    },
+    {
+      "name": "Westin",
+      "price": 5030,
+      "commissionPct": 14,
+      "city": "Ahmedabad",
+      "hotelId": "00003U"
+    },
+    {
+      "name": "Four Seasons",
+      "price": 5767,
+      "commissionPct": 19,
+      "city": "Hyderabad",
+      "hotelId": "00003V"
+    },
+    {
+      "name": "Radisson Blu",
+      "price": 4594,
+      "commissionPct": 19,
+      "city": "Jaipur",
+      "hotelId": "00003W"
+    },
+    {
+      "name": "St. Regis",
+      "price": 4126,
+      "commissionPct": 24,
+      "city": "Surat",
+      "hotelId": "00003X"
+    },
+    {
+      "name": "The Dorchester",
+      "price": 4546,
+      "commissionPct": 14,
+      "city": "Mumbai",
+      "hotelId": "00003Y"
+    },
+    {
+      "name": "Radisson Blu",
+      "price": 5925,
+      "commissionPct": 19,
+      "city": "Delhi",
+      "hotelId": "00003Z"
+    },
+    {
+      "name": "Raffles",
+      "price": 4057,
+      "commissionPct": 17,
+      "city": "Bengaluru",
+      "hotelId": "00003a"
+    },
+    {
+      "name": "DoubleTree",
+      "price": 3650,
+      "commissionPct": 16,
+      "city": "Pune",
+      "hotelId": "00003b"
+    },
+    {
+      "name": "Movenpick",
+      "price": 7687,
+      "commissionPct": 15,
+      "city": "Kolkata",
+      "hotelId": "00003c"
+    }
+  ]
+}

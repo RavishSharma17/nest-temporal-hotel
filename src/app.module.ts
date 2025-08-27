@@ -1,7 +1,8 @@
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
-import { UsersModule } from './users/users.module';
+import { HotelsModule } from './hotels/hotels.module';
 import { TemporalModule } from './temporal/temporal.module';
+import { SupplierModule } from './supplier/supplier.module';
 
 @Module({
   imports: [
@@ -9,8 +10,9 @@ import { TemporalModule } from './temporal/temporal.module';
       isGlobal: true,
       envFilePath: '.env',
     }),
-    UsersModule, 
-    TemporalModule
+    HotelsModule, 
+    TemporalModule, 
+    SupplierModule
   ],
   controllers: [],
   providers: [],

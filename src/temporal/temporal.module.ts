@@ -1,16 +1,16 @@
 import { Module, forwardRef } from '@nestjs/common';
-import { UsersModule } from '../users/users.module';
+import { HotelsModule } from '../hotels/hotels.module';
 import { TemporalClientService } from './services/temporal-client.service';
 // import { TemporalWorkerService } from './services/temporal-worker.service';
-import { UsersActivity } from './activities/users.activity';
+import { HotelsActivity } from './activities/hotels.activity';
 import { TemporalController } from './temporal.controller';
 
 @Module({
-  imports: [forwardRef(() => UsersModule)],
+  imports: [forwardRef(() => HotelsModule)],
   providers: [
     TemporalClientService,
     // TemporalWorkerService,
-    UsersActivity,
+    HotelsActivity,
   ],
   exports: [TemporalClientService],
   controllers: [TemporalController],

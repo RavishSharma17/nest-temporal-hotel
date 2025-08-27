@@ -1,7 +1,7 @@
 import { Injectable, OnModuleInit } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import { Client, Connection } from '@temporalio/client';
-import { getUsersWorkflow, getUserByIdWorkflow } from '../workflows/users.workflow';
+import { getHotelsByCityWorkflow } from '../workflows/hotels.workflow';
 
 @Injectable()
 export class TemporalClientService implements OnModuleInit {
@@ -21,27 +21,17 @@ export class TemporalClientService implements OnModuleInit {
     });
   }
 
-  async executeGetUsersWorkflow(): Promise<string[]> {
-    const taskQueue = this.configService.get<string>('TEMPORAL_TASK_QUEUE', 'users-task-queue');
+  async executeHotelsByCityWorkflow(query): Promise<string[]> {
+    const taskQueue = this.configService.get<string>('TEMPORAL_TASK_QUEUE', 'hotels-task-queue');
     
-    const handle = await this.client.workflow.start(getUsersWorkflow, {
+    const handle = await this.client.workflow.start(getHotelsByCityWorkflow, {
       taskQueue,
-      workflowId: `get-users-${Date.now()}`,
-      
+      workflowId: `get-hotels-${Date.now()}`,
+      // startDelay: 1000,
+      args: [query]
     });
 
     return await handle.result();
   }
 
-  async executeGetUserByIdWorkflow(id: number): Promise<string> {
-    const taskQueue = this.configService.get<string>('TEMPORAL_TASK_QUEUE', 'users-task-queue');
-    
-    const handle = await this.client.workflow.start(getUserByIdWorkflow, {
-      taskQueue,
-      workflowId: `get-user-by-id-${id}-${Date.now()}`,
-      args: [id],
-    });
-
-    return await handle.result();
-  }
 }

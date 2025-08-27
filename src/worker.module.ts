@@ -1,9 +1,9 @@
 import { Module, forwardRef } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
-import { UsersModule } from './users/users.module';
-import { TemporalClientService } from './temporal/services/temporal-client.service';
+import { HotelsModule } from './hotels/hotels.module';
+// import { TemporalClientService } from './temporal/services/temporal-client.service';
 import { TemporalWorkerService } from './temporal/services/temporal-worker.service';
-import { UsersActivity } from './temporal/activities/users.activity';
+import { HotelsActivity } from './temporal/activities/hotels.activity';
 
 @Module({
   imports: [
@@ -11,12 +11,12 @@ import { UsersActivity } from './temporal/activities/users.activity';
       isGlobal: true,
       envFilePath: '.env',
     }),
-    forwardRef(() => UsersModule)
+    forwardRef(() => HotelsModule)
   ],
   providers: [
-    TemporalClientService,
+    // TemporalClientService,
     TemporalWorkerService,
-    UsersActivity,
+    HotelsActivity,
   ],
 })
 export class WorkerModule {}

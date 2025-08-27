@@ -47,7 +47,7 @@ Edit the `.env` file to match your Temporal server configuration:
 # Temporal Configuration
 TEMPORAL_ADDRESS=localhost:7233
 TEMPORAL_NAMESPACE=default
-TEMPORAL_TASK_QUEUE=users-task-queue
+TEMPORAL_TASK_QUEUE=hotels-task-queue
 
 # Application Configuration
 PORT=3000
@@ -90,15 +90,15 @@ npm run start:worker:dev
 |----------|-------------|---------|
 | `TEMPORAL_ADDRESS` | Temporal server address and port | `localhost:7233` |
 | `TEMPORAL_NAMESPACE` | Temporal namespace to use | `default` |
-| `TEMPORAL_TASK_QUEUE` | Task queue name for workflows | `users-task-queue` |
+| `TEMPORAL_TASK_QUEUE` | Task queue name for workflows | `hotels-task-queue` |
 | `PORT` | Port for the web server | `3000` |
 | `NODE_ENV` | Environment mode | `development` |
 
 ## How It Works
 
 1. **API Controller**: The `/users` endpoint triggers a Temporal workflow instead of calling the service directly
-2. **Temporal Workflow**: The `getUsersWorkflow` executes the business logic through activities
-3. **Temporal Activity**: The `UsersActivity` wraps the original `UsersService.getUsers()` method
+2. **Temporal Workflow**: The `getHotelsByCity` executes the business logic through activities
+3. **Temporal Activity**: The `HotelsActivity` wraps the original `HotelsService.getHotelsByCity()` method
 4. **Temporal Worker**: Processes the workflows and activities in the background
 
 ## Available Scripts
