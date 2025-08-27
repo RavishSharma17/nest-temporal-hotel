@@ -24,7 +24,7 @@
 
 # NestJS with Temporal.io Integration
 
-This project demonstrates how to integrate Temporal.io workflows with a NestJS application.
+This project demonstrates how to integrate Temporal.io workflows with a NestJS application, featuring Redis for data storage and search capabilities.
 
 ## Prerequisites
 
@@ -41,7 +41,7 @@ Copy the example environment file and configure your settings:
 cp .env.example .env
 ```
 
-Edit the `.env` file to match your Temporal server configuration:
+Edit the `.env` file to match your Temporal server and Redis configuration:
 
 ```bash
 # Temporal Configuration
@@ -84,6 +84,153 @@ npm run start:dev
 npm run start:worker:dev
 ```
 
+## Docker Deployment
+
+This project includes Docker support for containerized deployment with separate images for the API server and Temporal worker.
+
+### Docker Images
+
+The project provides two optimized Docker images:
+
+1. **API Server Image** (`nest-temporal-api`) - Runs the NestJS web server
+2. **Worker Image** (`nest-temporal-worker`) - Runs the Temporal worker process
+
+### Building Docker Images
+
+Build both images using the provided Dockerfiles:
+
+```bash
+# Build the API server image
+docker build -f Dockerfile.api -t nest-temporal-api .
+
+# Build the worker image
+docker build -f Dockerfile.worker -t nest-temporal-worker .
+```
+
+### Running with Docker
+
+**Start the API server container:**
+```bash
+docker run -d \
+  --name nest-temporal-api \
+  -p 3000:3000 \
+  -e NODE_ENV=production \
+  -e PORT=3000 \
+  -e TEMPORAL_ADDRESS=your-temporal-server:7233 \
+  nest-temporal-api
+```
+
+**Start the worker container:**
+```bash
+docker run -d \
+  --name nest-temporal-worker \
+  -e NODE_ENV=production \
+  -e TEMPORAL_ADDRESS=your-temporal-server:7233 \
+  nest-temporal-worker
+```
+
+### Docker Compose (Recommended)
+
+For easier orchestration, use Docker Compose:
+
+```yaml
+version: '3.8'
+services:
+
+  temporal:
+    image: temporalio/auto-setup:latest
+    ports:
+      - "7233:7233"
+      - "8233:8233"
+    
+  nest-temporal-api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - TEMPORAL_ADDRESS=temporal:7233
+    depends_on:
+      - temporal
+
+  nest-temporal-worker:
+    build:
+      context: .
+      dockerfile: Dockerfile.worker
+    environment:
+      - NODE_ENV=production
+      - TEMPORAL_ADDRESS=temporal:7233
+    depends_on:
+      - temporal
+
+```
+
+Save this as `docker-compose.yml` and run:
+
+```bash
+# Start all services
+docker-compose up -d
+
+# View logs
+docker-compose logs -f
+
+# Stop all services
+docker-compose down
+```
+
+### Docker Environment Variables
+
+When running in Docker, ensure these environment variables are set:
+
+| Variable | Description | Docker Default |
+|----------|-------------|----------------|
+| `TEMPORAL_ADDRESS` | Temporal server address | `temporal:7233` |
+| `NODE_ENV` | Environment mode | `production` |
+| `PORT` | API server port | `3000` |
+
+### Production Docker Deployment
+
+For production deployment:
+
+1. **Build optimized images:**
+   ```bash
+   docker build -f Dockerfile.api -t your-registry/nest-temporal-api:latest .
+   docker build -f Dockerfile.worker -t your-registry/nest-temporal-worker:latest .
+   ```
+
+2. **Push to registry:**
+   ```bash
+   docker push your-registry/nest-temporal-api:latest
+   docker push your-registry/nest-temporal-worker:latest .
+   ```
+
+3. **Deploy with orchestration tools** (Kubernetes, Docker Swarm, etc.)
+
+### Docker Features
+
+- **Multi-stage builds** for optimized image sizes
+- **Non-root user** for security
+- **Production-ready** configuration
+- **Proper signal handling** for graceful shutdowns
+- **Health checks** ready for orchestration
+- **Separate images** for independent scaling
+
+### Docker Troubleshooting
+
+**Container connectivity issues:**
+```bash
+# Check container logs
+docker logs nest-temporal-api
+docker logs nest-temporal-worker
+
+# Check network connectivity
+docker exec nest-temporal-api ping redis
+docker exec nest-temporal-worker ping temporal
+```
+
 ## Environment Variables
 
 | Variable | Description | Default |
@@ -94,12 +241,14 @@ npm run start:worker:dev
 | `PORT` | Port for the web server | `3000` |
 | `NODE_ENV` | Environment mode | `development` |
 
-## How It Works
+### Hotel API Endpoints
 
-1. **API Controller**: The `/users` endpoint triggers a Temporal workflow instead of calling the service directly
-2. **Temporal Workflow**: The `getHotelsByCity` executes the business logic through activities
-3. **Temporal Activity**: The `HotelsActivity` wraps the original `HotelsService.getHotelsByCity()` method
-4. **Temporal Worker**: Processes the workflows and activities in the background
+The application provides hotel management endpoints:
+
+- `GET supplierName/hotels` - Gets hotels by supplierName
+- `GET /api/hotels?city=...&minPrice=...&maxPrice=...` - Search hotels by city and price
+
+## Troubleshooting
 
 ## Available Scripts
 
@@ -107,21 +256,6 @@ npm run start:worker:dev
 - `npm run start:worker:dev` - Start only the Temporal worker with auto-reload
 - `npm run start:worker:prod` - Start only the Temporal worker in production mode
 - `npm run start:prod` - Start the web server in production mode
-
-## Testing
-
-1. Make sure Temporal server is running
-2. Start the NestJS application or worker
-3. Call the API endpoint:
-
-```bash
-curl http://localhost:3000/users
-```
-
-Expected response:
-```json
-["Ravish", "Sharma"]
-```
 
 ## Temporal Web UI
 
@@ -141,9 +275,9 @@ PORT=8080
 ## Architecture
 
 ```
-HTTP Request → Users Controller → Temporal Client → Temporal Server
-                                                          ↓
-                                    Temporal Worker ← Activity (Users Service)
+HTTP Request → Controllers → Services/Temporal Client → Temporal Server
+                                                                ↓
+                                          Temporal Worker ← Activities
 ```
 
 ## Support

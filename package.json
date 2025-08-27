@@ -1,8 +1,8 @@
 {
   "name": "nest-temporal",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "An app to demonstrate NestJS with Temporal.io by fetching hotel data from multiple suppliers.",
+  "author": "Ravish Sharma",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {

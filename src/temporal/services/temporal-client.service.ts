@@ -2,6 +2,7 @@ import { Injectable, OnModuleInit } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import { Client, Connection } from '@temporalio/client';
 import { getHotelsByCityWorkflow } from '../workflows/hotels.workflow';
+import { Hotel } from 'src/hotels/dto/hotel.type';
 
 @Injectable()
 export class TemporalClientService implements OnModuleInit {
@@ -21,9 +22,8 @@ export class TemporalClientService implements OnModuleInit {
     });
   }
 
-  async executeHotelsByCityWorkflow(query): Promise<string[]> {
+  async executeHotelsByCityWorkflow(query): Promise<Hotel[]> {
     const taskQueue = this.configService.get<string>('TEMPORAL_TASK_QUEUE', 'hotels-task-queue');
-    
     const handle = await this.client.workflow.start(getHotelsByCityWorkflow, {
       taskQueue,
       workflowId: `get-hotels-${Date.now()}`,

@@ -1,5 +1,6 @@
 import { Injectable, Inject, forwardRef } from '@nestjs/common';
 import { HotelsService } from '../../hotels/hotels.service';
+import { Hotel } from 'src/hotels/dto/hotel.type';
 
 @Injectable()
 export class HotelsActivity {
@@ -8,8 +9,8 @@ export class HotelsActivity {
         private readonly hotelsService: HotelsService
     ) {}
 
-    async getHotelsByCity(query): Promise<string> {
-        return this.hotelsService.getHotelsByCity(query);
+    async getHotelsByCity(query, supplierName): Promise<Hotel[]> {
+        return this.hotelsService.getHotelsByCity(query, supplierName);
     }
 
 }

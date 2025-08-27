@@ -26,7 +26,7 @@ export class TemporalWorkerService implements OnModuleInit {
       taskQueue,
       workflowsPath: path.join(__dirname, '../workflows'),
       activities: {
-        getHotelsByCity: this.hotelsActivity.getHotelsByCity.bind(this.hotelsActivity, arguments)
+        getHotelsByCity: this.hotelsActivity.getHotelsByCity.bind(this.hotelsActivity)
       },
     });
 

@@ -1,0 +1,96 @@
+{
+	"info": {
+		"_postman_id": "ab60dbe5-fade-4498-b815-b5c17e7304f8",
+		"name": "Nest-temporal-hotel",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "47963404"
+	},
+	"item": [
+		{
+			"name": "Supplier A Hotel List",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/supplierA/hotels"
+			},
+			"response": []
+		},
+		{
+			"name": "Supplier B Hotel List",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/supplierB/hotels"
+			},
+			"response": []
+		},
+		{
+			"name": "Hotel List By City / prices",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/hotels?city=delhi&minPrice=2000&maxPrice=7000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"hotels"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "delhi"
+						},
+						{
+							"key": "minPrice",
+							"value": "2000"
+						},
+						{
+							"key": "maxPrice",
+							"value": "7000"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Empty hotel list for a city",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/hotels?city=noida&minPrice=2000&maxPrice=7000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"hotels"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "noida"
+						},
+						{
+							"key": "minPrice",
+							"value": "2000"
+						},
+						{
+							"key": "maxPrice",
+							"value": "7000"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

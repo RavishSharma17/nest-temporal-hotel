@@ -1,27 +1,22 @@
 import { Injectable } from '@nestjs/common';
 import { SupplierService } from 'src/supplier/supplier.service';
+import { Hotel } from './dto/hotel.type';
 
 @Injectable()
 export class HotelsService {
     constructor(private readonly supplierService: SupplierService) {}
 
-    getHotelsByCity(query: any) {
-        this.somePrivateMethod();
-        // if(query.city && !(query.minPrice || query.maxPrice)) {
-        //     console.log('Calling Supplier Service to get hotels by supplier name');
-        //     let A = this.supplierService.getHotelsBySupplierName('SupplierA');
-        //     return A;
-        //     // this.supplierService.getHotelsBySupplierName('SupplierB');
-        // }
+    async getHotelsByCity(query: any, supplierName: string): Promise<Hotel[]>{
+        let response = this.supplierService.getHotelsBySupplierName(supplierName);
+        let filteredResponse = response.filter(hotel => hotel.city?.toLowerCase() === query.city?.toLowerCase())
+        if (query?.minPrice) {
+            filteredResponse = filteredResponse.filter(hotel => hotel.price >= query.minPrice);
+        }
+        if (query?.maxPrice) {
+            filteredResponse = filteredResponse.filter(hotel => hotel.price <= query.maxPrice);
+        }
+        return filteredResponse;
 
-        console.log(JSON.stringify(query));
-
-        return `city is ${query.city} minPrice is ${query.minPrice} maxPrice is ${query.maxPrice} `; // just a mock response
     }
 
-    // to be removed later, only for logging observability in worker terminal
-    private somePrivateMethod(): void {
-        // This method is private and not exposed outside this service
-        console.info('Started Running private method');
-    }
 }

@@ -7,7 +7,7 @@ export class SupplierController {
     constructor(private readonly supplierService: SupplierService) {}
 
     @Get(":supplier/hotels")
-    getHotelsBySupplier(@Param('supplier') supplier: string): string {
+    async getHotelsBySupplier(@Param('supplier') supplier: string) {
         return this.supplierService.getHotelsBySupplierName(supplier);
     }
 

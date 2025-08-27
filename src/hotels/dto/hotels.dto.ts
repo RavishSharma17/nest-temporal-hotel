@@ -9,10 +9,10 @@ export class HotelsDto {
     @IsNumber()
     @IsNotEmpty()
     @IsOptional()
-    minPrice: number;
+    minPrice?: number;
 
     @IsNumber()
     @IsNotEmpty()
     @IsOptional()
-    maxPrice: number;
+    maxPrice?: number;
 }
